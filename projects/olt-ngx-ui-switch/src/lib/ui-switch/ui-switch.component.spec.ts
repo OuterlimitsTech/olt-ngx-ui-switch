@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OltNgxUiSwitchComponent } from './olt-ngx-ui-switch.component';
+import { UiSwitchComponent } from './ui-switch.component';
 
-describe('OltNgxUiSwitchComponent', () => {
-  let component: OltNgxUiSwitchComponent;
-  let fixture: ComponentFixture<OltNgxUiSwitchComponent>;
+describe('UiSwitchComponent', () => {
+  let component: UiSwitchComponent;
+  let fixture: ComponentFixture<UiSwitchComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ OltNgxUiSwitchComponent ]
+      declarations: [ UiSwitchComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(OltNgxUiSwitchComponent);
+    fixture = TestBed.createComponent(UiSwitchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

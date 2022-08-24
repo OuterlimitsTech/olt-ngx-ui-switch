@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/olt-ngx-ui-switch",
       "sourceRoot": "projects/olt-ngx-ui-switch/src",
-      "prefix": "lib",
+      "prefix": "olt",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
