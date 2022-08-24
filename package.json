@@ -4,7 +4,8 @@
   "scripts": {
     "build": "ng build olt-ngx-ui-switch",
     "watch": "ng build olt-ngx-ui-switch --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postbuild": "xcopy \"README.md\" \".\\dist\\olt-ngx-ui-switch\" \/Y"
   },
   "private": true,
   "dependencies": {

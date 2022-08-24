@@ -14,7 +14,6 @@ const UI_SWITCH_CONTROL_VALUE_ACCESSOR: any = {
 @Component({
   selector: 'olt-ui-switch',
   templateUrl: './ui-switch.component.html',
-  styleUrls: ['./ui-switch.component.scss'],
   providers: [UI_SWITCH_CONTROL_VALUE_ACCESSOR],
   changeDetection: ChangeDetectionStrategy.Default
 })
