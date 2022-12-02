@@ -7,6 +7,9 @@
   "repository": "https://github.com/OuterlimitsTech/olt-ngx-ui-switch.git",
   "license": "MIT",
   "author": "Chris Straw",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "angular",
     "angular",
